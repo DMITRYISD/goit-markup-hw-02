@@ -1,0 +1,147 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.current {
+  color: var(--accent-color);
+}
+/*========================  components  ==============================*/
+body {
+  font-family: var(--main-font);
+  color: #212121;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.suptitle {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+/*========================  end components   ==============================*/
+/*========================  header  ==============================*/
+.logo-link {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.navigation-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-menu-link:hover,
+.navigation-menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-menu-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-menu-item-link:hover,
+.contact-menu-item-link:focus {
+  color: var(--accent-color);
+}
+/*========================  end header  ==============================*/
+/*========================  foundation  ==============================*/
+.foundation-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background: var(--accent-color);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background: #188ce8;
+}
+/*======================== end foundation  ==============================*/
+/*======================== features  ==============================*/
+.features-title3 {
+  font-weight: b700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*======================== end features  ==============================*/
+/*======================== classes ==============================*/
+
+/*======================== end classes ==============================*/
+/*======================== team ==============================*/
+.features-title4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.descriptions {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/*======================== end team ==============================*/
+/*======================== footer ==============================*/
+.address-menu-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address-menu-link:hover,
+.address-menu-link:focus {
+  color: var(--accent-color);
+}
+/*======================== end footer ==============================*/
+/*========================  portfolio  ==============================*/
+.portfolio-modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background: #ffffff;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-modal-btn:hover,
+.portfolio-modal-btn:focus {
+  color: #ffffff;
+  background: #188ce8;
+}
+/*========================  end portfolio  ==============================*/
+/*========================  works  ==============================*/
+.features-title5 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works-descriptions {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*========================  end  works  ==============================*/
